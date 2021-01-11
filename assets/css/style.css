@@ -1,0 +1,1036 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    
+    
+}
+
+/***********      blinking */
+/* blink {
+  -webkit-animation: 2s linear infinite condemned_blink_effect; // for Safari 4.0 - 8.0
+  animation: 2s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for Safari 4.0 - 8.0
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  } */
+/* } */
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+/* =============== Navigation =============== */
+
+.navbar-default{
+	padding: 15px;
+    background-color: #444;
+    border-color: #444;
+    z-index: 110;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    margin: 0;
+    
+
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active	
+
+{
+    color: #FF7236;
+
+}
+
+
+
+.navbar-default .navbar-nav > li > a{
+    color: #b5b5b5;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+
+
+}
+
+.navbar-brand{
+    margin-top: -30px;
+	
+}
+
+.nav-learnCS{
+    margin-top: -45px;
+	
+}
+
+.navbar-brand img{
+	margin-left: 30px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+		
+}	
+
+.navbar-default .navbar-nav > li > a button{
+	border: none;
+	background-color: #444;
+}
+
+
+
+.navbar-default .navabar-nav > .active > a,
+.navbar-default .navabar-nav > .active > a:hover,
+.navbar-default .navabar-nav > .active > a:focus{
+    background-color: transparent;
+    color: #FF7236;
+
+
+}
+
+
+
+
+/* =============== index-section ================== */
+.index-section{
+	margin-top: 50px;
+	width: 100%;
+	height: cover;
+}
+
+
+
+.image-logo img{
+	width: 80%;	
+	border-left: 1px solid #eee;
+}
+
+.index-section{
+	margin-top: 50px;
+	width: 100%;
+	height: cover;
+}
+
+.index-section .carousel .carousel-inner .item img{
+	background: transparent;
+	height: 500px;
+	opacity: .9;
+	width: 100%;
+}
+
+.index-section .carousel-caption a{
+	text-decoration: none;
+	
+}
+
+.index-section .carousel-caption a .index-carousel-title{
+	font-size: 35px;
+	color: white;
+}
+
+.index-section .carousel-caption a .index-carousel-title:hover{
+	text-decoration: underline;
+}
+
+.index-section .carousel-caption  p{
+	color:  white;
+	font-size: 23px;
+}
+
+
+/***************** new try*/
+.main-text {
+    position: absolute;
+    top: 100px;
+    width: 96.6%;
+    color: orange;
+	background: transparent;
+	font-weight: #fff;
+}
+
+
+
+
+.carousel-btns {
+    margin-top: 2em; 
+}
+
+.carousel-btns .btn {
+	width: 150px;
+}
+
+.carousel-inner .imgOverlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 28, 38, 0.5);
+}
+
+.carousel-inner img {
+	
+   width: 100%;
+}
+
+/*CONTROL*/
+.carousel-control {
+    width: auto;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+  position: absolute;
+  top: 47%;
+  right: 0;
+  z-index: 5;
+  display: inline-block;
+  background-color: #000;
+  width: 38px;
+  height: 38px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .fa-chevron-left {
+  left: 0;
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  margin: 0 1px;
+  border: 2px solid #fff;
+  opacity: .8;
+}
+
+.carousel-indicators .active {
+    background-color: #28ace2;
+    border-color: #28ace2;
+}
+
+.carousel-control .icon-prev, .carousel-control .fa-chevron-left,
+.carousel-control .icon-right, .carousel-control .fa-chevron-right {
+    border-radius: 50px;
+}
+
+.carousel-control .icon-prev, .carousel-control .fa-chevron-left {
+    left: 30px;
+}
+
+.carousel-control .icon-right, .carousel-control .fa-chevron-right {
+    right: 30px;
+}
+
+
+
+
+
+
+/****     end new try*/
+
+.welcome-section .section-title{
+	color: #ff7236;
+	font-weight: 550;
+}
+
+/* =============== /.index-section ================== */
+
+/* =============== about-us-section ================== */
+
+.section-title{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.section-title h2{
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-title h2:after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #FF7236;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+  
+}
+
+.section-title p{
+    position: relative;
+    color: #333;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;  
+    margin-top: 50px;
+}
+
+/* ======= Wrapper======== */
+
+/* .about-us-wrapper{
+    
+} */
+
+.about-side img{
+    width: 100%;
+}
+
+.choose-us h2{
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.choose-us i{
+    font-size: 50px;
+    color: #FF7236;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
+
+/* =============== /.about-us-section ================== */
+
+/* =============== .courses-section ================== */
+
+.courses-section{
+	margin-top: 70px;
+	color: #444;
+}
+
+.courses-section .courses-title{
+	
+	padding: 60px 0;
+	text-align: center;
+	background-color: rgb(68,68,68);
+	margin-bottom: 30px;
+	color: #eee;
+	
+}
+
+.courses-section .courses-title h1{
+	color: #ff7236;
+}
+
+.courses-section .courses-title h4{
+	color: #ddd;
+}
+
+.courses-section h1,h3,h5{
+	font-weight: 600;
+	
+}
+.coursePanel{
+	max-height: 110px;
+	font-weight: 600;
+	padding : 12px;
+	box-shadow: 6px 10px 9px -9px gray;
+	
+}
+.coursePanel h5{
+	font-size: 20px;
+}
+.coursePanel h6{
+	font-size: 15px;
+}
+
+
+/* =============== /.courses-section ================== */
+
+
+
+/* ============ Footer ============== */
+
+
+.before-footer {
+	height: 200px;
+	background-color: #ccc;
+}
+
+
+.footer{
+    background-color: #161616;
+    padding: 35px 0;
+    
+}
+
+#copyright{
+    margin-top: 100px;
+	
+}
+
+#copyright p{
+    color: #8c8b8a;
+    font-weight: 800;
+    font-size: 15px;
+   
+}
+
+#copyright p a{
+    text-decoration: none;
+    color: #FF7236;
+    
+}
+.footer .contact-us-part{
+	margin-top: 20px;
+	line-height: 25px;
+}
+
+.footer .contact-us-part h2{
+	color: #ff7236;
+	font-weight: 600;
+}
+
+.footer .contact-us-part i{
+	font-size: 21px;
+	color: #ff7236;
+	font-weight: 600;
+}
+
+.footer .contact-us-part span{
+	font-size: 19px;
+	color: #ddd;
+}
+
+.footer .footer-image img{
+	size: 300px;
+	margin-left: 100px;
+}
+
+
+
+
+/*================ Login Page ========= */
+
+.login-page{
+	margin-top: 100px;
+	
+}
+
+.panel-primary{
+	height: 400px;
+}
+
+.login-here{
+	font-size: 35px;
+	font-weight: 500;
+	padding-top: 30xp;
+	color: #666;
+	
+	
+}
+
+.continue-index{
+	font-size: 19px;
+	line-height: 35px;
+	color: #666;
+	
+}
+
+.form-group{
+	padding: 10px;
+	
+}
+ .form-footer {
+	 padding: 20px;
+ }
+ 
+ 
+ 
+ .btn-primary{
+	 width: 100px;
+	 float: right;
+	 
+ }
+ 
+ /* /login page*/
+ 
+ 
+ 
+ 
+ /* =======sinup page=========*/
+
+.sign-up .form-btn{
+	margin-bottom: 20px;
+}
+
+/* ============== Dashboard Page ================*/
+
+		/*  Start: Dashboard Page */
+		
+.dashboard-page-title{
+	background-color: #F4F5F5;
+	margin-top: 50px;
+	padding: 50px;
+	
+}
+
+.dashboard-page-title .icons{
+	font-size: 28px;
+}
+
+.dashboard-page-title .title h4{
+	background-color: #FF7236;
+	font-size: 23px;
+	font-weight: 700;
+	width: 80%;
+	text-align: center;
+	padding: 20px;
+	border-radius: 5px;
+	color: #F6F9F2;
+	
+}
+
+
+
+.dashboard-page-title .welcome h4{
+	font-size: 25px;
+	font-weight: 700;
+	color: #FF7236;
+	
+}
+
+.dashboard-page-title .welcome h1{
+	font-size: 36px;
+	font-weight: 700;
+	color: #777;
+	font-family:  Helvetica, sans-serif;
+}
+
+.dashboard-page-title .faculty_image{
+	margin-left: 60px;
+}
+.dashboard-page-title .faculty_image img{
+
+	width: 90%;
+	height: 250px;
+	background: transparent;
+	opacity: .8;
+	border-radius: 3px 3px 120px 3px;
+}
+
+
+.dashboard-page-title .section-context{
+	margin-top: 50px;
+	background-color: #fff;
+}
+
+.dashboard-page-title .section-context h2{
+	margin-top: 50px;
+	text-align: left;
+	font-weight: 600;
+	color: #FF7236;
+}
+
+.dashboard-page-title .section-context img{
+	width: 100%;
+	margin: 0;
+	height: 300px;
+	border-radius: 0 0 0 200px;
+	
+}
+
+.dashboard-page-title .section-context h1{
+	font-size: 35px;
+	font-weight: 700;
+	color: #777;
+}
+
+.dashboard-page-title .section-context hr{
+	width: 100px;
+	margin-top: -5px;
+	
+	border: 2px solid #eee;
+}
+
+.dashboard-page-title .section-context .courses-title{
+	padding: 30px;
+	background-color: #F4F5F5;
+	border-radius: 2px;	
+	margin-bottom: 20px;
+	
+}
+
+.dashboard-page-title .section-context .courses-title .status-course{
+	font-size: 19px;	
+}
+.dashboard-page-title .section-context .courses-title .course-name{
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+
+
+.dashboard-page-title .section-context .courses-title .continue-course a{
+	color: #444;
+	float: right;
+	font-size: 14px;	
+	text-decoration: underline;
+}
+
+/*  End: Dashboard Page */
+
+
+/*  Start: Dashboard Page */
+
+.dashboard-page-title .courses-title-course{
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 2px;	
+	margin-bottom: 20px;
+	
+}
+
+.dashboard-page-title .courses-title-course .course-title-name{
+	font-size: 25px;
+	color: #777;
+	text-decoration: underline;
+}
+
+.dashboard-page-title .courses-title-course .course-title-name:hover{
+	color: blue;
+}
+
+.dashboard-page-title .courses-title-course .teacher-name{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.dashboard-page-title .courses-title-course .teacher-name i{
+	font-size: 23px;
+	color: #FF7236;
+}
+
+.dashboard-page-title .courses-title-course .view-course {
+	
+	padding: 5px 30px;
+	border: 2px #FF7236 solid;
+	border-radius: 3px;
+	background-color: #FF7236;
+	color: #eee;
+	font-size: 21px;
+}
+
+.dashboard-page-title .courses-title-course .continue-course:hover{
+	text-decoration: none;
+}
+
+
+/* Start: course-lesson */
+.tutor-image img{
+	width: 100%;
+	border-radius: 0 100px 0 100px;
+}
+
+
+.lesson-course{
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 2px;	
+	margin-bottom: 20px;
+	
+}
+
+.lesson-course ol{
+	margin-left: 30px;
+	font-size: 50px;
+}
+
+
+
+.lesson-course ol li .course-title-name{
+	font-size: 26px;
+	color: black;
+	
+	
+}
+
+.lesson-course ol li h4{
+	margin-right: 40px;
+}
+
+
+.lesson-course ol li .view-lecture {
+	font-size: 26px;
+	padding: 2px; 
+	border: 2px #FF7236 solid;
+	background-color: #FF7236;
+	color: #eee;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.lesson-course ol li .view-lecture:hover{
+	padding: 10px;
+}
+
+/* End: course_lesson */
+
+/* start: lesson_file */
+.navbar-brand .lesson_file_title{
+	margin-top: 25px;
+	color: #8A8988;
+	font-size: 25px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.navbar-brand .lesson_file_title i{
+	font-size: 36px;
+	color: #FF7236;
+}
+
+.lesson_file .video{
+	margin-top: 80px;
+	height: cover;
+}
+
+.lesson_file .quiz_block{
+	margin-top: 120px;
+	margin-bottom: 20px;
+	
+}
+
+.lesson_file .quiz_block p{
+	font-size: 21px;
+	border-bottom: 1px solid #eee;
+	
+	
+}
+
+.lesson_file .quiz_block p i{
+	font-size: 25px;
+	color: #FF7236;
+}
+
+.lesson_file h1{
+	text-align: right;
+	font-weight: 700;
+}
+
+
+.lesson_file h1 .quiz_button{
+	text-decoration: none;
+	background-color: #FF7236;
+	padding: 10px 20px;
+	font-size: 36px;
+	border: 2px solid #FF7236;
+	border-radius: 10px;
+	color: #eee;
+}
+
+.lesson_file h1 .quiz_button:hover{
+	padding: 15px 25px;
+}
+
+/* ====== Start : quiz*/
+.quiz_page_title{
+	padding: 20px;
+	background-color: #444;
+	
+	color: #8C8B8A;
+	font-style: italic;
+	font-weight: 700;
+}
+.quiz_page_title span{
+	color: #ff7236;
+}
+.quiz_page{
+	
+	background-color: #F1F1F1;
+	color: #888;
+	font-size: 36px;
+	font-weight: 500;
+		
+}
+
+
+.quiz_page p {
+	font-size: 21px;
+	color: #888;
+}
+.quiz_page .from-group{
+	border: 1px solid #fff;
+	background-color: #fff;
+}
+
+.quiz_page input[type="text"]{
+	font-size: 19px;
+	border: none;
+}
+.quiz_page .form-control{
+    display: block;
+    width: 100%;
+    color: #555;
+    background-color: transparent;
+    border-radius: 3px;
+    opacity: .8;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    
+}
+
+
+.quiz_page .form-option{
+	margin-top: 0;
+	padding: 0;
+	width: 80%;
+    color: #555;
+    background-color: transparent;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
+
+.quiz_page input[name="submit_quiz"]{
+	margin-top: 30px;
+	padding: 10px;
+	margin-bottom: 100px;
+	float: right;
+	border: 2px solid #ff7236;
+	border-radius: 5px;
+	background-color: #ff7236;
+	color: #eee;
+	font-style: normal;
+	font-weight: 700;
+}
+
+
+.quiz_page input[name="submit_exam"]{
+	margin-top: 30px;
+	padding: 10px;
+	margin-bottom: 100px;
+	float: right;
+	border: 2px solid #ff7236;
+	border-radius: 5px;
+	background-color: #ff7236;
+	color: #eee;
+	font-style: normal;
+	font-weight: 700;
+}
+
+
+/*=============== Start: upload_file ======*/
+
+.upload_file_quiz input{
+	margin-top: 20px;
+}
+.upload_file_quiz .form-control{
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: #555;
+    background-color: transparent;
+    border-radius: 3px;
+    opacity: .8;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    
+}
+
+
+.upload_file_quiz .form-option{
+	width: 80%;
+	height: 50px;
+    color: #555;
+    background-color: transparent;
+    border-radius: 3px;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.upfile{
+	 margin-top: 100px;
+	 padding: 20px;
+	 border: 2px solid #ddd;
+	 
+}
+
+.upfile p{
+	color: #ff7236;
+	font-size: 25px; 
+	font-weight: 600;
+}
+
+
+
+.upload_file_quiz input[name="quiz_submit"]{
+	padding: 20px;
+	font-size: 25px;
+	font-weight: 600;
+	border: 2px #ff7236;
+	border-radius: 5px;
+	background-color: #ff7236;
+	color: #eee;
+	float: right;
+}
+
+/* start: assignment ======*/
+
+.assignment_file{
+	margin-top: 120px;
+}
+
+.assignment_file .h2{
+	font-size: 28px;
+	border: 2px solid #ff7236;
+	border-radius: 5px;
+	color: #eee;
+	background-color: #ff7236;
+	padding: 10px 5px;
+	
+}
+
+.form_account_image img{
+	border-radius: 50%;
+}
+
+.quiz_page hr{
+	border: 1px solid #aaa;
+}
+
+.quiz_o {
+	background-color: #fff;
+}
+
+.quiz_o .marge{
+	margin: 20px 20px 0 20px;
+}
+
+.quiz_o .marge a:hover{
+	text-decoration: none;
+}
+.News{
+	background-color: #444;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #eee;
+	border-radius: 4px;
+}
+
+.dashboard-page-title .lesson-course .special_overflow span{
+
+  white-space: nowrap;
+
+}
+
+.button_dropdown_d{
+	margin-top: 9px;
+}
+.button_dropdown_d button{
+	border: none;
+	background-color: #444;
+	color: #bbb;
+}
+
+.button_dropdown_d button:hover{
+	background-color: #444;
+	color: #ff7236;
+}
+
+/* LOGIN REGISTER MODAL CSS */
+.modal-header {
+	padding: 0;
+  }
+  .modal-header .close {
+	padding: 10px 15px;
+  }
+  .modal-header ul {
+	border: none;
+  }
+  .modal-header ul li {
+	margin: 0;
+  }
+  .modal-header ul li a {
+	border: none;
+	border-radius: 0;
+  }
+  .modal-header ul li.active a {
+	color: #e12f27;
+  }
+  .modal-header ul li a:hover {
+	border: none;
+  }
+  .modal-header ul li a span {
+	margin-left: 10px;
+  }
+  .modal-body .form-group {
+	margin-bottom: 0px;
+  }
+  .checkbox label{
+	padding-left: 34px
+  }
+ #showPassword {
+    margin-top: 10px;
+	line-height: normal;
+	
+}
+#showPassword label{
+	font-weight: 400;
+
+}
+#checkBox{
+	margin-top: 5px;
+}
+
+#showpassCheckBox{
+	padding-right: 3px;
+}
+.modal-content{
+	width: 400px;
+	margin: auto;
+}
+.loginBtn{
+	float: none;
+}
